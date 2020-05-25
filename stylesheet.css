@@ -46,7 +46,7 @@ section{
 display: none;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
 	.c1 > .row-menubg { 
 		width: 100%;
 		float: left;
@@ -64,7 +64,7 @@ display: none;
 	}
 }
 
-@media screen and  (min-width: 768px) and (max-width: 991px) {
+@media screen and  (min-width: 601px) and (max-width: 991px) {
 	.c1 > .row-menubg { 
 		width: 45%;
 		float: left;
@@ -110,7 +110,7 @@ border-style: solid;
   display: none;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -142,7 +142,7 @@ padding: 5px 5px;
   display: none;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
