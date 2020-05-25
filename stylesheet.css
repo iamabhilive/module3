@@ -1,0 +1,159 @@
+h1{
+	text-align: left;
+}
+
+body{
+	font-family: cursive;
+	margin: auto;
+}
+
+h2{
+	text-align: center;
+}
+
+.row-menubg{
+	text-align: center;
+	border-style: solid 2px;
+	margin: 10px; 
+}
+
+section{
+	margin: 20px;
+}
+
+.row-menubg > div {
+	
+}
+
+.col-md-12{
+	text-align: center;
+	background-color: gray;
+}
+
+.col1{
+	background-color: gray;
+}
+
+.col2{
+	background-color: gray;
+}
+
+.col3{
+	background-color: gray;
+}
+
+.hide {
+display: none;
+}
+
+@media screen and (max-width: 767px) {
+	.c1 > .row-menubg { 
+		width: 100%;
+		float: left;
+	}
+	.c2 > .row-menubg {
+		width: 100%;
+		float: left;
+	}
+	.c3 > .row-menubg {
+		width: 100%;
+		float: left;
+	}
+	.hide {
+		display: block;
+	}
+}
+
+@media screen and  (min-width: 768px) and (max-width: 991px) {
+	.c1 > .row-menubg { 
+		width: 45%;
+		float: left;
+	}
+	.c2 > .row-menubg {
+		width: 45%;
+		float: right;
+	}
+	.c3 > .row-menubg {
+		width: 97.7%;
+		float: left;
+	}
+	.col-md-12 {
+		height: 150px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.c1 > .row-menubg { 
+		width: 30%;
+		float: left;
+	}
+	.c2 > .row-menubg {
+		width: 30%;
+		float: left;
+	}
+	.c3 > .row-menubg {
+		width: 30%;
+		float: left;
+	}
+	.col-md-12 {
+		height: 200px;
+	}
+}
+
+.topnav {
+  overflow: hidden;
+background-color: gray;
+border-style: solid;
+}
+
+.hide-md-lg {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+ .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+
+.topnav a {
+  float: none;
+border-style: solid;
+  display: block;
+  color: black;
+  text-align: left;
+padding: 5px 5px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+color: white;
+  }
+}
+
